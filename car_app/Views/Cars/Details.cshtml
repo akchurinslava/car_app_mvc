@@ -1,0 +1,42 @@
+﻿@model car_app_core.Domain.Car
+
+
+@{
+    ViewData["Title"] = "Details of car";
+}
+
+<h2>Car Details</h2>
+
+<div>
+    <h4>ID: @Model.Id</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Make</dt>
+        <dd class="col-sm-10">@Model.Make</dd>
+
+        <dt class="col-sm-2">Model</dt>
+        <dd class="col-sm-10">@Model.Model</dd>
+
+        <dt class="col-sm-2">Year</dt>
+        <dd class="col-sm-10">@Model.Year</dd>
+
+        <dt class="col-sm-2">Price</dt>
+        <dd class="col-sm-10">@Math.Floor(Model.Price)€</dd>
+
+        <dt class="col-sm-2">Power</dt>
+        <dd class="col-sm-10">@Model.Horsepower kW</dd>
+
+        <dt class="col-sm-2">Color</dt>
+        <dd class="col-sm-10">@Model.Color</dd>
+
+        <dt class="col-sm-2">Created At</dt>
+        <dd class="col-sm-10">@Model.CreatedAt</dd>
+
+        <dt class="col-sm-2">Modified At</dt>
+        <dd class="col-sm-10">@Model.ModifiedAt</dd>
+    </dl>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back</a>
+</p>

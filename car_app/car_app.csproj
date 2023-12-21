@@ -8,4 +8,34 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\car_app_core\car_app_core.csproj" />
+    <ProjectReference Include="..\car_app_data\car_app_data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Cars\" />
+    <None Remove="Models\CarApp\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Views\Cars\" />
+    <Folder Include="wwwroot\videos\" />
+    <Folder Include="Models\CarApp\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Remove="wwwroot\videos\" />
+  </ItemGroup>
+
 </Project>

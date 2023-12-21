@@ -1,0 +1,11 @@
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/bin/Debug/net7.0/car_app_core.deps.json
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/bin/Debug/net7.0/car_app_core.dll
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/bin/Debug/net7.0/car_app_core.pdb
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/car_app_core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/car_app_core.AssemblyInfoInputs.cache
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/car_app_core.AssemblyInfo.cs
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/car_app_core.csproj.CoreCompileInputs.cache
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/car_app_core.dll
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/refint/car_app_core.dll
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/car_app_core.pdb
+/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/Debug/net7.0/ref/car_app_core.dll

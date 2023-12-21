@@ -1,0 +1,381 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/car_test.csproj": {}
+  },
+  "projects": {
+    "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj",
+        "projectName": "car_app",
+        "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj",
+        "packagesPath": "/Users/my_pc/.nuget/packages/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/my_pc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj"
+              },
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj",
+        "projectName": "car_app_application_services",
+        "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj",
+        "packagesPath": "/Users/my_pc/.nuget/packages/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/my_pc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj"
+              },
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj",
+        "projectName": "car_app_core",
+        "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj",
+        "packagesPath": "/Users/my_pc/.nuget/packages/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/my_pc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj",
+        "projectName": "car_app_data",
+        "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj",
+        "packagesPath": "/Users/my_pc/.nuget/packages/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/my_pc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/car_test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/car_test.csproj",
+        "projectName": "car_test",
+        "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/car_test.csproj",
+        "packagesPath": "/Users/my_pc/.nuget/packages/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/my_pc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj"
+              },
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj"
+              },
+              "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.6, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

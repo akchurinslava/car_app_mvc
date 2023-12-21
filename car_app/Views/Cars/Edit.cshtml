@@ -1,0 +1,36 @@
+﻿@model car_app_core.Domain.Car
+
+
+@{
+    ViewData["Title"] = "Edit details of car";
+}
+
+<h2>Edit Car</h2>
+
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <div class="form-group">
+        <label asp-for="Make"></label>
+        <input asp-for="Make" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Model"></label>
+        <input asp-for="Model" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Year"></label>
+        <input asp-for="Year" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Horsepower">Power</label>
+        <input asp-for="Horsepower" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Color"></label>
+        <input asp-for="Color" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

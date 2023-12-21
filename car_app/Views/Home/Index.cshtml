@@ -2,8 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    
+    .btn-rounded {
+        border-radius: 20px;
+        background: linear-gradient(to right, #FFD700, #FF6347);
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        padding: 15px 25px;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-rounded:hover {
+        background: linear-gradient(to right, #FF6347, #FFD700);
+    }
+</style>
+
+<div class="video-background">
+    <video autoplay muted loop id="video-bg">
+        <source src="/videos/1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<div class="text-center" style="margin-top: 150px; color:white;">
+    <h1 class="display-6">WELCOME TO OUR CAR CATALOG!</h1>
+    <br />
+    <p>
+        Welcome to our car catalog, from this words I want to start your journey behind our website.
+        <br />
+        We will meet you with our cars, then you could see their details, edit or delete chosen car.
+        <br />
+        <br />
+        <strong>An exciting trip awaits you!</strong>
+    </p>
+    <a asp-controller="Cars" asp-action="Index" class="btn btn-rounded btn-success">LET'S START!</a>
 </div>
 

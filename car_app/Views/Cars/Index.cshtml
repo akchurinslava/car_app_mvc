@@ -1,0 +1,151 @@
+﻿@model List<car_app_core.Domain.Car>
+
+
+@{
+    ViewData["Title"] = "Catalog of cars";
+}
+
+<style>
+    .btn-rounded2 {
+        border-radius: 20px;
+        background: linear-gradient(to right, #3498db, #2980b9);
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        padding: 10px 20px;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-rounded2:hover {
+            background: linear-gradient(to right, #2980b9, #3498db);
+        }
+
+    .btn-rounded3 {
+        border-radius: 20px;
+        background: linear-gradient(to right, #2ecc71, #27ae60);
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        padding: 10px 20px;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-left: -4px;
+    }
+
+        .btn-rounded3:hover {
+            background: linear-gradient(to right, #27ae60, #2ecc71);
+        }
+
+    .btn-rounded4 {
+        border-radius: 20px;
+        background: linear-gradient(to right, #e74c3c, #c0392b);
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        padding: 10px 20px;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-rounded4:hover {
+            background: linear-gradient(to right, #c0392b, #e74c3c);
+        }
+
+
+    .table2 {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .table2 th, .table2 td {
+            padding: 0.75rem;
+            vertical-align: top;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .table2 thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .table2 tbody + tbody {
+            border-top: 2px solid #dee2e6;
+        }
+
+        .table2 tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .table2 tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.075);
+        }
+
+        .table2 th, .table2 td {
+            border: 1px solid #dee2e6;
+        }
+
+        .table2 th {
+            color: #fff;
+            background-color: #343a40;
+            border-color: #454d55;
+        }
+
+        .table2 td {
+            color: #495057;
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
+</style>
+
+
+
+@*<h2 style="display: inline-block">Cars</h2>*@
+<a asp-action="Create" class="btn btn-rounded3 btn-success">ADD NEW CAR</a>
+
+<table class="table2">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Price</th>
+            <th>Power</th>
+            <th>Color</th>
+            <th>Created At</th>
+            <th>Modified At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Id</td>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@car.Year</td>
+                <td>@Math.Floor(car.Price)€</td>
+                <td>@car.Horsepower kW</td>
+                <td>@car.Color</td>
+                <td>@car.CreatedAt</td>
+                <td>@car.ModifiedAt</td>
+                <td>
+                    <form asp-action="Details" asp-route-id="@car.Id" method="get" style="display: inline;">
+                        <button type="submit" class="btn btn-rounded2 btn-success">DETAILS</button>
+                    </form>
+                    <form asp-action="Delete" asp-route-id="@car.Id" method="post" style="display: inline;">
+                        <button type="submit" class="btn btn-rounded4 btn-success">DELETE</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

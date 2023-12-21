@@ -1,0 +1,39 @@
+﻿@model car_app_core.Domain.Car
+
+
+<h2>Delete Car</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ID: @Model.Id</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Make</dt>
+        <dd class="col-sm-10">@Model.Make</dd>
+
+        <dt class="col-sm-2">Model</dt>
+        <dd class="col-sm-10">@Model.Model</dd>
+
+        <dt class="col-sm-2">Year</dt>
+        <dd class="col-sm-10">@Model.Year</dd>
+
+        <dd class="col-sm-10">@Model.Price</dd>
+        <dt class="col-sm-2">Price</dt>
+
+        <dd class="col-sm-10">@Model.Horsepower</dd>
+        <dt class="col-sm-2">Power</dt>
+
+        <dd class="col-sm-10">@Model.Color</dd>
+        <dt class="col-sm-2">Color</dt>
+
+        <dt class="col-sm-2">Created At</dt>
+        <dd class="col-sm-10">@Model.CreatedAt</dd>
+
+        <dt class="col-sm-2">Modified At</dt>
+        <dd class="col-sm-10">@Model.ModifiedAt</dd>
+    </dl>
+    <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index">Back</a>
+    </form>
+</div>
