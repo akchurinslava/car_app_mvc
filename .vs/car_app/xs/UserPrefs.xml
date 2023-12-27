@@ -6,17 +6,16 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="car_test/UnitTest1.cs">
-    <Files>
-      <File FileName="car_test/UnitTest1.cs" Line="11" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="car_app" expanded="True">
-            <Node name="car_app" expanded="True" />
-            <Node name="car_test">
-              <Node name="UnitTest1.cs" selected="True" />
+            <Node name="car_app">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="CarService.cs" selected="True" />
             </Node>
           </Node>
         </State>
