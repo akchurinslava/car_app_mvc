@@ -1,0 +1,29 @@
+﻿@model IEnumerable<car_app.Models.Car>
+
+<h2>Cars</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Created At</th>
+            <th>Modified At</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Id</td>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@car.Year</td>
+                <td>@car.CreatedAt</td>
+                <td>@car.ModifiedAt</td>
+            </tr>
+        }
+    </tbody>
+</table>
