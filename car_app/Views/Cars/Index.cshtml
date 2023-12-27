@@ -1,6 +1,12 @@
 ﻿@model IEnumerable<car_app.Models.Car>
 
+@{
+    ViewData["Title"] = "Catalog of cars";
+}
+
+
 <h2>Cars</h2>
+<a asp-action="Create" class="btn btn-success">Add new car</a>
 
 <table class="table">
     <thead>
@@ -11,6 +17,7 @@
             <th>Year</th>
             <th>Created At</th>
             <th>Modified At</th>
+            <td></td>
         </tr>
     </thead>
     <tbody>
@@ -23,6 +30,19 @@
                 <td>@car.Year</td>
                 <td>@car.CreatedAt</td>
                 <td>@car.ModifiedAt</td>
+                <td>
+                    <form asp-action="Details" asp-route-id="@car.Id" method="get" style="display: inline;">
+                        <button type="submit" class="btn btn-success" style="background-color: blue;">Details</button>
+                    </form>
+
+                    <form asp-action="Edit" asp-route-id="@car.Id" method="get" style="display: inline;">
+                        <button type="submit" class="btn btn-success" style="background-color: coral;">Edit</button>
+                    </form>
+
+                    <form asp-action="Delete" asp-route-id="@car.Id" method="post" style="display: inline;">
+                        <button type="submit" class="btn btn-success" style="background-color: red;">Delete</button>
+                    </form>
+                </td>
             </tr>
         }
     </tbody>

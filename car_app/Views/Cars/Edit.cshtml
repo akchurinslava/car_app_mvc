@@ -1,5 +1,9 @@
 ﻿@model car_app.Models.Car
 
+@{
+    ViewData["Title"] = "Edit details of car";
+}
+
 <h2>Edit Car</h2>
 
 <form asp-action="Edit" asp-route-id="@Model.Id" method="post">

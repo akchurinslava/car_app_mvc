@@ -6,16 +6,28 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="car_app/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="car_app/Views/Shared/_Layout.cshtml" Line="13" Column="17" />
+      <File FileName="car_app/Views/Cars/Index.cshtml" Line="39" Column="96" />
+      <File FileName="car_app/Views/Cars/Edit.cshtml" Line="4" Column="45" />
+      <File FileName="car_app/Views/Cars/Details.cshtml" Line="4" Column="40" />
+      <File FileName="car_app/Views/Cars/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="car_app/Views/Cars/Create.cshtml" Line="4" Column="37" />
+      <File FileName="car_app/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="car_app/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="car_app" expanded="True">
+          <Node name="car_app">
             <Node name="car_app">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="CarService.cs" selected="True" />
+              <Node name="Views">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
