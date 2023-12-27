@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{10EFC401-2331-4A58-BA85-6E5DE074740C}|https">
+  <MonoDevelop.Ide.ItemProperties.car__app PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="car_test/UnitTest1.cs">
+    <Files>
+      <File FileName="car_test/UnitTest1.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="car_app" expanded="True">
+            <Node name="car_app" expanded="True" />
+            <Node name="car_test">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
