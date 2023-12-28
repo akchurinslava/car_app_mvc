@@ -48,7 +48,7 @@ namespace car_app.Controllers
 		//Post for Cars/Create
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Create([Bind("Id,Make,Model,Year,CreatedAt,ModifiedAt")] Car car)
+		public async Task<IActionResult> Create([Bind("Id,Make,Model,Year,Price,Horsepower,Color,CreatedAt,ModifiedAt")] Car car)
 		{
 			if (ModelState.IsValid)
 			{
@@ -81,7 +81,7 @@ namespace car_app.Controllers
 		//Post Cars/Edit
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Edit(int id, [Bind("Id,Make,Model,Year,CreatedAt,ModifiedAt")] Car car)
+		public async Task<IActionResult> Edit(int id, [Bind("Id,Make,Model,Year,Price,Horsepower,Color,CreatedAt,ModifiedAt")] Car car)
 		{
 			if (id != car.Id)
 			{
