@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/wwwroot/videos/1.mp4",
+      "PackagePath": "staticwebassets/videos/1.mp4"
+    },
+    {
+      "Id": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/wwwroot/videos/2.mp4",
+      "PackagePath": "staticwebassets/videos/2.mp4"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.car_app.props",
       "PackagePath": "build\\car_app.props"
     },
