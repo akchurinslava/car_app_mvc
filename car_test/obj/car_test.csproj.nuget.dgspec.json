@@ -138,7 +138,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.6.4, )"
+              "version": "[2.6.5, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
