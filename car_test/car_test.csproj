@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-    <PackageReference Include="xunit" Version="2.6.5" />
+    <PackageReference Include="xunit" Version="2.6.6" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -30,6 +30,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\car_app\car_app.csproj" />
+    <ProjectReference Include="..\car_app_core\car_app_core.csproj" />
+    <ProjectReference Include="..\car_app_application_services\car_app_application_services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Macros\" />
+    <None Remove="Mock\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Macros\" />
+    <Folder Include="Mock\" />
+  </ItemGroup>
 </Project>

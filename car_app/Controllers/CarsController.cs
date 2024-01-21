@@ -2,6 +2,8 @@
 using car_app.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using car_app_core.Domain;
+using car_app_data;
 
 namespace car_app.Controllers
 {
@@ -14,8 +16,17 @@ namespace car_app.Controllers
 			_context = context;
 		}
 
-		//Get for Cats
-		public async Task<IActionResult> Index()
+
+        public IActionResult YourAction()
+        {
+			var cars = new List<car_app_core.Dto.Car>();
+
+            return View(cars);
+        }
+
+
+        //Get for Cats
+        public async Task<IActionResult> Index()
 		{
 			var cars = await _context.Cars.ToListAsync();
 			return View(cars);

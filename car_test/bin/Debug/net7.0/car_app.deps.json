@@ -9,7 +9,9 @@
       "car_app/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
-          "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "car_app_core": "1.0.0",
+          "car_app_data": "1.0.0"
         },
         "runtime": {
           "car_app.dll": {}
@@ -169,6 +171,20 @@
       "System.Text.Json/7.0.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
+        }
+      },
+      "car_app_core/1.0.0": {
+        "runtime": {
+          "car_app_core.dll": {}
+        }
+      },
+      "car_app_data/1.0.0": {
+        "dependencies": {
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "car_app_core": "1.0.0"
+        },
+        "runtime": {
+          "car_app_data.dll": {}
         }
       }
     }
@@ -332,6 +348,16 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "car_app_core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "car_app_data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

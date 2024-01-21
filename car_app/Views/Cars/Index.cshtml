@@ -1,4 +1,5 @@
-﻿@model IEnumerable<car_app.Models.Car>
+﻿@model List<car_app_core.Domain.Car>
+
 
 @{
     ViewData["Title"] = "Catalog of cars";
@@ -62,44 +63,44 @@
         overflow: hidden;
     }
 
-    .table2 th, .table2 td {
-        padding: 0.75rem;
-        vertical-align: top;
-        border-top: 1px solid #dee2e6;
-    }
+        .table2 th, .table2 td {
+            padding: 0.75rem;
+            vertical-align: top;
+            border-top: 1px solid #dee2e6;
+        }
 
-    .table2 thead th {
-        vertical-align: bottom;
-        border-bottom: 2px solid #dee2e6;
-    }
+        .table2 thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        }
 
-    .table2 tbody + tbody {
-        border-top: 2px solid #dee2e6;
-    }
+        .table2 tbody + tbody {
+            border-top: 2px solid #dee2e6;
+        }
 
-    .table2 tbody tr:nth-of-type(odd) {
-        background-color: rgba(0, 0, 0, 0.05);
-    }
+        .table2 tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
 
-    .table2 tbody tr:hover {
-        background-color: rgba(0, 0, 0, 0.075);
-    }
+        .table2 tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.075);
+        }
 
-    .table2 th, .table2 td {
-        border: 1px solid #dee2e6;
-    }
+        .table2 th, .table2 td {
+            border: 1px solid #dee2e6;
+        }
 
-    .table2 th {
-        color: #fff;
-        background-color: #343a40;
-        border-color: #454d55;
-    }
+        .table2 th {
+            color: #fff;
+            background-color: #343a40;
+            border-color: #454d55;
+        }
 
-    .table2 td {
-        color: #495057;
-        background-color: #e9ecef;
-        border-color: #dee2e6;
-    }
+        .table2 td {
+            color: #495057;
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
 </style>
 
 

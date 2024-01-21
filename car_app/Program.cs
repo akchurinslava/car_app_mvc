@@ -1,4 +1,5 @@
-﻿using car_app.Models;
+﻿
+using car_app_data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
