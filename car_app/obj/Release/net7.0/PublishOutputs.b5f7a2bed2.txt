@@ -1,0 +1,16 @@
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/appsettings.Development.json
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/appsettings.json
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app.runtimeconfig.json
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app.pdb
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/Microsoft.EntityFrameworkCore.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/MySqlConnector.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app_core.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app_data.dll
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app_core.pdb
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app_data.pdb
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/obj/Release/net7.0/PubTmp/Out/car_app.deps.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZBt6mEiizkxLug3GDuufKsszu2Dm1gPAufWqdjz3NsQ0pQaPMtJTqBdCWFVDXwEfkGqB72rNQ1nJ02t4BKegg==",
+  "dgSpecHash": "Z9B9tBs3pPRpQoXg/2ukvBZFlSv6qCaql+VXNbxUVhJI7ALYuKHRbeWwoK+7lLYhlj/TlyWN/w2Bo2PGe/2Pew==",
   "success": true,
-  "projectFilePath": "/Users/my_pc/Desktop/car_app_mvc/car_app_application_services/car_app_application_services.csproj",
+  "projectFilePath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj",
   "expectedPackageFiles": [
     "/Users/my_pc/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

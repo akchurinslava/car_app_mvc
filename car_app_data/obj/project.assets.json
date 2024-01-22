@@ -1007,11 +1007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/my_pc/Desktop/car_app_mvc/car_app_data/car_app_data.csproj",
+      "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj",
       "projectName": "car_app_data",
-      "projectPath": "/Users/my_pc/Desktop/car_app_mvc/car_app_data/car_app_data.csproj",
+      "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/car_app_data.csproj",
       "packagesPath": "/Users/my_pc/.nuget/packages/",
-      "outputPath": "/Users/my_pc/Desktop/car_app_mvc/car_app_data/obj/",
+      "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -1027,8 +1027,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/my_pc/Desktop/car_app_mvc/car_app_core/car_app_core.csproj": {
-              "projectPath": "/Users/my_pc/Desktop/car_app_mvc/car_app_core/car_app_core.csproj"
+            "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj": {
+              "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj"
             }
           }
         }
@@ -1070,7 +1070,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

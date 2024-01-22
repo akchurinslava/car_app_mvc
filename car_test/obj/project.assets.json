@@ -837,6 +837,21 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "car_app_application_services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "car_app": "1.0.0",
+          "car_app_data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/car_app_application_services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/car_app_application_services.dll": {}
+        }
+      },
       "car_app_core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2002,6 +2017,11 @@
       "path": "../car_app/car_app.csproj",
       "msbuildProject": "../car_app/car_app.csproj"
     },
+    "car_app_application_services/1.0.0": {
+      "type": "project",
+      "path": "../car_app_application_services/car_app_application_services.csproj",
+      "msbuildProject": "../car_app_application_services/car_app_application_services.csproj"
+    },
     "car_app_core/1.0.0": {
       "type": "project",
       "path": "../car_app_core/car_app_core.csproj",
@@ -2020,6 +2040,7 @@
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
       "car_app >= 1.0.0",
+      "car_app_application_services >= 1.0.0",
       "car_app_core >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.6.6",
@@ -2032,11 +2053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/my_pc/Desktop/car_app_mvc/car_test/car_test.csproj",
+      "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/car_test.csproj",
       "projectName": "car_test",
-      "projectPath": "/Users/my_pc/Desktop/car_app_mvc/car_test/car_test.csproj",
+      "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/car_test.csproj",
       "packagesPath": "/Users/my_pc/.nuget/packages/",
-      "outputPath": "/Users/my_pc/Desktop/car_app_mvc/car_test/obj/",
+      "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -2052,11 +2073,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/my_pc/Desktop/car_app_mvc/car_app/car_app.csproj": {
-              "projectPath": "/Users/my_pc/Desktop/car_app_mvc/car_app/car_app.csproj"
+            "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj": {
+              "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app/car_app.csproj"
             },
-            "/Users/my_pc/Desktop/car_app_mvc/car_app_core/car_app_core.csproj": {
-              "projectPath": "/Users/my_pc/Desktop/car_app_mvc/car_app_core/car_app_core.csproj"
+            "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj": {
+              "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_application_services/car_app_application_services.csproj"
+            },
+            "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj": {
+              "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj"
             }
           }
         }

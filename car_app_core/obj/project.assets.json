@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/my_pc/Desktop/car_app_mvc/car_app_core/car_app_core.csproj",
+      "projectUniqueName": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj",
       "projectName": "car_app_core",
-      "projectPath": "/Users/my_pc/Desktop/car_app_mvc/car_app_core/car_app_core.csproj",
+      "projectPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/car_app_core.csproj",
       "packagesPath": "/Users/my_pc/.nuget/packages/",
-      "outputPath": "/Users/my_pc/Desktop/car_app_mvc/car_app_core/obj/",
+      "outputPath": "/Users/my_pc/Desktop/work/github/car_app_mvc/car_app_core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
