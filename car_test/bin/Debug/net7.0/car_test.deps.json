@@ -13,11 +13,11 @@
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
           "car_app": "1.0.0",
-          "car_app_application_services": "1.0.0",
           "car_app_core": "1.0.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.6.6",
-          "xunit.runner.visualstudio": "2.5.6"
+          "xunit.runner.visualstudio": "2.5.6",
+          "car_app_application_services": "1.0.0.0"
         },
         "runtime": {
           "car_test.dll": {}
@@ -532,16 +532,6 @@
           "car_app.dll": {}
         }
       },
-      "car_app_application_services/1.0.0": {
-        "dependencies": {
-          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
-          "car_app": "1.0.0",
-          "car_app_data": "1.0.0"
-        },
-        "runtime": {
-          "car_app_application_services.dll": {}
-        }
-      },
       "car_app_core/1.0.0": {
         "runtime": {
           "car_app_core.dll": {}
@@ -554,6 +544,14 @@
         },
         "runtime": {
           "car_app_data.dll": {}
+        }
+      },
+      "car_app_application_services/1.0.0.0": {
+        "runtime": {
+          "car_app_application_services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -842,11 +840,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "car_app_application_services/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "car_app_core/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -854,6 +847,11 @@
     },
     "car_app_data/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "car_app_application_services/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -110,6 +110,7 @@
 /Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/car_test.AssemblyInfoInputs.cache
 /Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/car_test.AssemblyInfo.cs
 /Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/car_test.csproj.CoreCompileInputs.cache
+/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/car_test.sourcelink.json
 /Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/car_test.csproj.CopyComplete
 /Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/car_test.dll
 /Users/my_pc/Desktop/work/github/car_app_mvc/car_test/obj/Debug/net7.0/refint/car_test.dll
@@ -240,9 +241,3 @@
 /Users/my_pc/Desktop/car_app_mvc/car_test/obj/Debug/net7.0/car_test.pdb
 /Users/my_pc/Desktop/car_app_mvc/car_test/obj/Debug/net7.0/car_test.genruntimeconfig.cache
 /Users/my_pc/Desktop/car_app_mvc/car_test/obj/Debug/net7.0/ref/car_test.dll
-/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/bin/Debug/net7.0/car_app_application_services.dll
-/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/bin/Debug/net7.0/car_app_core.dll
-/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/bin/Debug/net7.0/car_app_data.dll
-/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/bin/Debug/net7.0/car_app_core.pdb
-/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/bin/Debug/net7.0/car_app_application_services.pdb
-/Users/my_pc/Desktop/work/github/car_app_mvc/car_test/bin/Debug/net7.0/car_app_data.pdb

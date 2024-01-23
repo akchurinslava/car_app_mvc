@@ -1,35 +1,25 @@
 ﻿<Properties StartupConfiguration="{10EFC401-2331-4A58-BA85-6E5DE074740C}|https">
   <MonoDevelop.Ide.ItemProperties.car__app PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="car_app/appsettings.json">
     <Files>
-      <File FileName="car_app/Views/Home/Index.cshtml" />
-      <File FileName="car_test/CarTests.cs" />
-      <File FileName="car_app/Program.cs" />
-      <File FileName="car_app/Models/ErrorViewModel.cs" />
-      <File FileName="car_test/DatabaseCollection.cs" />
-      <File FileName="car_test/DbContextFactory.cs" />
-      <File FileName="car_test/TestDatabaseFixture.cs" />
-      <File FileName="car_test/Mock/MockIHostEnviroment.cs" />
-      <File FileName="car_app_application_services/Services/CarService.cs" />
-      <File FileName="car_app_application_services/CarRepository.cs" />
-      <File FileName="car_app/Models/CarApp/car_app_delete_view_model.cs" />
-      <File FileName="car_app/Models/CarApp/car_app_details_view_model.cs" />
-      <File FileName="car_app/car_app.csproj" Line="14" Column="82" />
-      <File FileName="car_app/appsettings.json" Line="6" Column="18" />
+      <File FileName="car_app/car_app.csproj" Line="28" Column="34" />
+      <File FileName="car_app/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="car_app">
-            <Node name="car_app" selected="True" />
+          <Node name="car_app" expanded="True">
+            <Node name="car_app" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
